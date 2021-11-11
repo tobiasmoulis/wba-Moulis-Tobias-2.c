@@ -1,0 +1,49 @@
+p, h1 {
+    text-align: center;
+    color: red;
+  }
+  #p {
+    text-align: right;
+    color: rgba(15, 226, 51, 0.692);
+    
+  }  
+  .clas{
+     
+      background-color: yellow;
+      color: blueviolet;
+  }
+  div p{
+      font-size: x-large;
+  }
+  
+ 
+  a:link {
+    color: rgb(56, 17, 226);
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:hover {
+    color: hotpink;
+    font-size: 22px;
+  }
+  
+  a:active {
+    color: rgb(255, 81, 0);
+  }
+  .clas2 {
+    background-color: rgb(206, 19, 59);
+    color: white;
+    padding: 25px;
+    text-align: center;
+  }
+  
+  .clas2:hover {
+    background-color: blue;
+  }
+
+  p:first-child i {
+    color: blue;
+  } 
