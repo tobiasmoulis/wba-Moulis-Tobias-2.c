@@ -1,0 +1,69 @@
+.flex-container {
+    background-color: chartreuse;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+  }
+  .flex-items {
+      background-color: pink;
+      border: 2cm 1cm 3cm 1cm;
+      border: rebeccapurple;
+  }
+  
+  .flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(3) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(4) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(5) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
+  .flex-items:nth-child(6) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
