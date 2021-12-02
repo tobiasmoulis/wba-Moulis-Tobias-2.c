@@ -1,0 +1,50 @@
+#container {
+    width: 1000px;
+    height: 400px;
+    background-color:purple;
+    margin: 80px auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center ;
+   
+
+}
+
+.item{
+    flex-basis: 200px;
+    background-color: yellow;
+    width: 150px;
+    height: 80px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.one {
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.two {
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.three {
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.four {
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
