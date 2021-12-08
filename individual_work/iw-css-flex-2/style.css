@@ -1,0 +1,56 @@
+.container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(38, 32, 62, 0.8);
+    width: 100%;
+    font-size: 1.1rem;
+}
+.container2{
+    width: 80%;
+    flex-flow: row nowrap;
+    display: flex;
+}
+.one{
+    justify-content: flex-start;
+    width: 25%;;
+}
+.two{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    display: flex;
+}
+.three{
+    width: 25%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+.main{
+    height: 100vh;
+    background-image: url( Cosmic-Gradient-14.jpg);
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: 100% 100%;
+    
+} 
+.box{
+    flex-direction: column;
+}
+.white{
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    width: 50%;
+    padding: 5px 5px 5px 5px;
+}
+h1{
+    font-size: 2rem;
+}
+p{
+    font-size: 1rem;
+}
+
+
