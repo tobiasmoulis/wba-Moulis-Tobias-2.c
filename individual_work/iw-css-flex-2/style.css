@@ -6,6 +6,11 @@
     width: 100%;
     font-size: 1.1rem;
 }
+.box{
+    background-image: url( Cosmic-Gradient-14.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+}
 .container2{
     width: 80%;
     flex-flow: row nowrap;
@@ -28,20 +33,14 @@
     display: flex;
     align-items: center;
 }
-.main{
-    height: 100vh;
-    background-image: url( Cosmic-Gradient-14.jpg);
-    align-content: stretch;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    background-size: 100% 100%;
-    
-} 
 .box{
     flex-direction: column;
 }
 .white{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: white;
     border-radius: 10px 10px 10px 10px;
     width: 55%;
