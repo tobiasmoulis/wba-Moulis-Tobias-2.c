@@ -1,0 +1,106 @@
+@import './share';
+.m3{
+    font-family: 'Lato', sans-serif;
+    opacity: 0;
+    .m3-1-s{
+         background-color: rgba($color: $gray, $alpha: 0.3);
+    }
+ }
+.mid{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .mid-1{
+        font-size: 1.25rem;
+        margin: 69px 0px 38px 0px;
+        font-weight: 700;
+    }
+        
+.box{
+    font-family: 'Lato', sans-serif;
+    width: 80%;
+    .grid{
+        display: grid;
+        margin: auto;
+        grid-gap: 18px;
+        font-size: 0.63rem;
+        padding: 10px;
+        font-weight: 500;
+        .c-1{
+            background-color: $gray;
+            padding: 10px;
+    
+        }
+        .c-2{
+            background-color: $gray ;
+            padding: 10px;
+            height: 144px;
+        }
+    }
+}
+    .mid-3{
+        font-family: 'Lato', sans-serif;
+        align-items: center;
+        display: flex;
+        .mid-3-1{
+            background-color: $gray;
+            font-size: 0.63rem;
+            color: white;
+            padding: 5px 10px 5px 10px;
+            margin: 38px 0px 69px 0px;
+            font-size: 0.688px;
+            font-weight: 600;
+        }
+    }
+}
+
+@media screen and (min-width:480px){
+    .menu{
+        .m3{
+                display: flex;
+                width: 33%;
+                padding-right:10% ;
+                opacity: 1;
+            .m3-1{
+                padding: 16px 18px 16px 18px;
+                font-size: 1rem;
+                font-weight: 700;
+            }
+            .m3-1-s{
+                padding: 16px 18px 16px 18px;
+                font-size: 1rem;
+                font-weight: 700;
+            }
+        }
+    }
+   .mid{
+    .mid-1{
+        font-size: 3rem;
+    }
+    .box{
+        width: 60%;
+        .grid{
+            grid-template-columns: repeat(2,1fr);
+
+            .c-1{
+                font-size: 1rem;
+                background-color: rgba($color: $gray, $alpha: 0.3);
+            }
+            .c-2{
+                grid-column: span 2;
+                font-size: 1rem;
+                background-color: rgba($color: $gray, $alpha: 0.3);
+            }
+        }
+    }
+    .mid-3{
+        .mid-3-1{
+            font-size: 1.12rem;
+            padding: 15px 30px 15px 30px;
+            margin-top: 20px;
+            margin-bottom: 110px;
+        }
+    }
+   }
+}

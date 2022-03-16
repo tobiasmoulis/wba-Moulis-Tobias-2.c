@@ -126,7 +126,6 @@ body{
 
 .map{
     display: flex;
-    background-color: grey;
     width: 70%;
     align-items: center;
     justify-content: center;
@@ -152,4 +151,44 @@ body{
 .o{
     font-size: 2rem;
     padding: 0vh 0vh 2vh 0vh;
+}
+
+@media screen and (max-width:480px){
+    .top{
+        max-width: 480px;
+    }
+    .tel{
+        font-size: 0%;
+    }
+    .mid{
+        max-width: 480px;
+    }
+    .menu{
+        margin: 5vh;
+    }
+    .menb{
+        flex-direction: column;
+    }
+    .menr{
+        width: 100%;
+        padding: 2vh 2vh 2vh 0vh;
+    }
+    .menl{
+        width: 100%;
+        padding: 2vh 2vh 2vh 0vh;
+    }
+    .bot{
+        max-width: 480px;
+    }
+    .bot2{
+        flex-direction: column;
+    }
+    .open{
+        width: 100%;
+        padding: 0vh;
+    }
+    .map{
+        width: 100%;
+        gap: 0px;
+    }
 }
