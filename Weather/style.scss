@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@500&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.searchB{
+    all: unset;
+    background-color: white;
+    padding: 4px 8px 4px 8px;
+    border-radius: 10px;
+    border: solid 2px;
+}
+.searchB:hover{
+    background-color: lightgrey;
+}
+.searchBDark{
+    all: unset;
+    background-color: gray;
+    padding: 4px 8px 4px 8px;
+    border-radius: 10px;
+    border: solid 2px;
+    color: black;
+}
+.searchBDark:hover{
+    background-color: black;
+    color: gray;
+}
+
+.switch{
+    all: unset;
+    border-radius: 10px;
+    border: solid 2px;
+    padding: 3px 8px 3px 8px;
+    background-color: lightgray;
+    margin: 10px;
+}
+.switch:hover{
+    background-color: gray;
+}
+.switchDark{
+    all: unset;
+    border-radius: 10px;
+    border: solid 2px;
+    padding: 3px 8px 3px 8px;
+    background-color: black;
+    margin: 10px;
+    color: gray;
+    border-color: gray;
+}
+.switchDark:hover{
+    background-color: gray;
+    color: black;
+    border-color: black;
+}
+
+p{
+    all: unset;
+    font-size: 1.5rem;
+}
+input{
+    all: unset;
+    width: 80%;
+    text-align: start;
+    padding-left: 5px;
+}
+::placeholder{
+    color: black;
+}
+.white{
+    background-color: lightgray;
+}
+.black{
+    background-color: black;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    gap: 10px;
+    .search{
+        border-radius: 20px;
+        background-color: white;
+        align-items: center;
+        padding: 25px;
+        .form{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+    }
+    .searchDark{
+        border-radius: 20px;
+        background-color: gray;
+        align-items: center;
+        padding: 25px;
+    }
+    .contant{
+        border-radius: 20px;
+        background-color: white;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        .temp{
+            display: flex;
+            flex-direction: column;
+            .img{
+                width: 40%;
+                margin: 20px auto 20px;
+            }
+        }
+        .location{
+            font-size: 2rem;
+            font-weight: 700;
+        }
+    }
+    .contantDark{
+        border-radius: 20px;
+        background-color: grey;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+}
+
+@media screen and (min-width:480px){
+    .searchB{
+        width: 20%;
+        font-size: 1.2rem;
+    }
+    ::placeholder{
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+    .box{
+        width: 50%;
+        .contant{
+            .temp{
+                .img{
+                    width: 20%;
+                }
+            }
+            .location{
+                font-size: 3rem;
+            }
+        }
+    }
+}
