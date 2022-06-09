@@ -1,0 +1,20 @@
+body{
+    margin: 10px;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+}
+.top{
+    grid-column: span 5;
+    background-color:hotpink;
+}
+.side{
+    grid-column: span 1;
+    background-color: pink;
+}
+.main{
+    grid-column: span 4;
+    background-color: rgb(211, 49, 111);
+}

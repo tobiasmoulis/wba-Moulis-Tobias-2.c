@@ -1,0 +1,107 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+.lorem{
+    display: flex;
+    justify-content: center;
+}
+.l2{
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.grid{
+    grid-template-columns: repeat (6,1fr);
+    display: grid;
+    grid-gap: 20px;
+    justify-content: center;
+}
+.item{
+    min-height: 17vh;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+.i1{
+    background-color: rgb(4, 196, 4);
+    grid-row-start: 1;
+    grid-row-end: span 2;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+.i2{
+    background-color: lightskyblue;
+    grid-column-start: 3;
+    grid-column-end: span 3;
+}
+.i3{
+    background-color: orange;
+    grid-column-start: 3;
+    grid-column-end: span 2;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+}
+.i4{
+    background-color: pink;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+}
+.i5{
+    background-color: purple;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+    grid-column-start: 5;
+    grid-column-end: span 1;
+}
+.i6{
+    background-color: red;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    grid-column-start: 5;
+    grid-column-end: span 1;
+}
+
+@media screen and (max-width:480px){
+    .grid{
+        grid-template-columns: repeat (1,1fr);
+        grid-template-rows: repeat (11,1fr);
+    }
+    .item{
+        min-height: 17vh;
+    }
+    
+    .i1{
+        background-color: rgb(4, 196, 4);
+        grid-row-start: span 2;
+        grid-column-start: span 1;
+    }
+    .i2{
+        background-color: lightskyblue;
+        grid-row-start: span 3;
+        grid-column-start: span 1;
+    }
+    .i3{
+        background-color: orange;
+        grid-column-start: span 1;
+        grid-row-start: span 2;
+    }
+    .i4{
+        background-color: pink;
+        grid-column-start: span 1;
+        grid-row-start: span 2;
+    }
+    .i5{
+        background-color: purple;
+        grid-column-start: span 1;
+        grid-row-start: span 1;
+    }
+    .i6{
+        background-color: red;
+        grid-column-start: span 1;
+        grid-row-start: span 1;
+    }
+
+    
+}

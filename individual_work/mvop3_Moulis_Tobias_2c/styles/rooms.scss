@@ -1,0 +1,59 @@
+@import './share';
+
+.details{
+  all: unset;
+  color: white;
+  background-color: black;
+  padding: 7px;
+}
+.containerMain{
+    width: 80%;
+    margin: 25px auto 40px auto;
+
+    .gridMain{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+
+      .standart{
+        background-image: url(stand.jpg);
+      }
+      .premium{
+        background-image: url(prem.jpg);
+      }
+      .deluxe{
+        background-image: url(delux.jpg);
+      }
+      .penthouse{
+        background-image: url(pent.jpg);
+      }
+      .roomFoto{
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 180px;
+      }
+      .roomText{
+        background-color:lightgray ;
+        text-align: center;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+    }
+  }
+
+  @media screen and (min-width:480px){
+    button{
+      padding: 10px 15px 10px 15px;
+    }
+    .containerMain{
+      .gridMain{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 80px;
+        .roomFoto{
+          height: 400px;
+        }
+      }
+    }
+  }

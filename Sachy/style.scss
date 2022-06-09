@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+body{
+    margin: 0%;
+}
+h1{
+    all: unset;
+    font-size: 3.75rem;
+}
+h2{
+    all: unset;
+    font-size: 2.5rem;
+}
+h3{
+    all: unset;
+    font-size: 2.187rem;
+}
+h4{
+    all: unset;
+    font-size: 1.875rem;
+}
+h5{
+    all: unset;
+    font-size: 1.5625rem;
+}
+h6{
+    all: unset;
+    font-size: 1.25rem;
+}
+a{
+    all: unset;
+}
+a :hover{
+    color: gray;
+}
+button{
+    all: unset;
+}
+
+.container{
+    header{
+        font-family: 'Lexend Mega', sans-serif;
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        .contantHeader{
+            width: 95%;
+            margin: auto;
+            display: flex;
+            gap: 28vw;
+            .links{
+                display: flex;
+                gap: 4vw;
+                align-items: center;
+            }
+        }
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        .first{
+            font-family: 'Lexend Mega', sans-serif;
+            height: 85vh;
+            background-color: #931621;
+            .contantFirstBox{
+                height: 100%;
+                .contantFirst{
+                    width: 700px;
+                    text-align: center;
+                    padding: 14% 0% 0% 13%;
+                    display: flex;
+                    flex-direction: column;
+                    .contantFirstTextOne{
+                        background-color: #c4c4c4;
+                        padding: 13px;
+                    }
+                    .contantFirstTextTwo{
+                        width: 269px;
+                        margin: 38px 0px 11px 0px;
+                    }
+                    .contantFirstButton{
+                        background-color: #c4c4c4;
+                        width: 269px;
+                        height: 60px;
+                    }
+                    .contantFirstButton:hover{
+                        background-color: grey;
+                    }
+                }
+            }
+        }
+        .second{
+            font-family: 'Lexend Mega', sans-serif;
+            height: auto;
+            width: 100%;
+            .contantSecond{
+                display: flex;
+                float: right;
+                flex-direction: column;
+                padding: 50px;
+                margin: 31px 0px 31px 0px;
+                width: 55%;
+                border: 5px #c4c4c4;
+                border-style: none none none solid;
+                gap: 24px;
+                .title{
+                    background-color: #c4c4c4;
+                    text-align: center;
+                    width: 416px;
+                    padding: 2px 0px 2px 0px;
+                }
+                .one{
+                    width: 488px;
+                }
+            }
+        }
+        .third{
+            background-color: #D6EADF;
+            width: 100%;
+            height: auto;
+            font-family: 'Lexend Deca', sans-serif;
+            .contantThird{
+                .titleThird{
+                    width: 60%;
+                    text-align: center;
+                    margin: 64px auto;
+                }
+                .order{
+                    text-align: center;
+                    margin: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 30px;
+                    margin-bottom: 200px;
+                    .orderOne{
+                        background-color: #F7F0F5;
+                        width: 400px;
+                        height: 517px;
+                        padding: 0px 20px 0px 20px;
+                        position: relative;
+                        .orderOneText{
+                            display: flex;
+                            flex-direction: column;
+                            border: 1px #000000;
+                            border-style: none none solid none;
+                            padding-bottom: 10px;
+                            .bold{
+                                font-weight: 700;
+                            }
+                        }
+                        .orderOneButton{
+                            position: absolute;
+                            bottom: 0%;
+                            left: 20px;
+                            font-weight: 800;
+                            line-height: 50px;
+                            background-color: #326771;
+                            color: white;
+                            width: 400px;
+                            margin: 0px auto 31px auto;
+                        }
+                        .orderOneButton:hover{
+                            background-color: #337a88;
+                        }
+                    }
+                    .orderTwo{
+                        background: #080705;
+                        color: #F7F0F5;
+                        width: 400px;
+                        height: 629px;
+                        padding: 0px 20px 0px 20px;
+                        position: relative;
+                        .orderTwoText{
+                            display: flex;
+                            flex-direction: column;
+                            border: 1px white;
+                            border-style: none none solid none;
+                            padding-bottom: 10px;
+                            margin-bottom: 50px;
+                            .bold{
+                                font-weight: 700;
+                            }
+                        }
+                        .orderTwoButton{
+                            position: absolute;
+                            bottom: 0%;
+                            left: 20px;
+                            font-weight: 800;
+                            line-height: 50px;
+                            background: #931621;
+                            color: white;
+                            width: 400px;
+                            margin: 0px auto 31px auto;
+                        }
+                        .orderTwoButton:hover{
+                            background: #b31522;
+                        }
+                    }
+                }            
+            }
+        }
+    
+    }
+    footer{
+        margin: 70px;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 800;
+        line-height: 50px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:480px){
+    h1{
+        font-size: 2.5rem;
+    }
+    h5{
+        font-size: 1.25rem;
+    }
+    .container{
+        header{
+            height: 40vh;
+            .contantHeader{
+                flex-direction: column;
+                font-size: 1.5rem;
+                gap: 5vh;
+                .links{
+                    flex-direction: column;
+                }
+            }
+        }
+        main{
+            .first{
+                height: auto;
+                padding-bottom: 20px;
+                .contantFirstBox{
+                    .contantFirst{
+                        justify-content: center;
+                        align-items: center;
+                        width: 90%;
+                        margin: auto;
+                        padding-left: 0%;
+                    }
+                }
+            }
+            .second{
+                .contantSecond{
+                    text-align: center;
+                    margin: 5%;
+                    float: left;
+                    width: 90%;
+                    padding: 0%;
+                    border-style: none;
+                    .title{
+                        width: 90%;
+                        margin: auto;
+                    }
+                    .one{
+                        width: 90%;
+                    }
+                }
+            }
+            .third{
+                .contantThird{
+                    width: 90%;
+                    margin: auto;
+                    .titleThird{
+                        width: 100%;
+                    }
+                    .order{
+                        flex-direction: column;
+                        margin: 0px auto 50px auto;
+                        .orderOne{
+                            width: 90%;
+                            height: 600px;
+                            .orderOneButton{
+                                width: 90%;
+                            }
+                        }
+                        .orderTwo{
+                            width: 90%;
+                            height: auto;
+                            .orderTwoButton{
+                                width: 90%;
+                                position: inherit;
+                                margin-top: 2rem;
+                                left: 0%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        footer{
+            margin: 10px auto;
+        }
+    }
+}

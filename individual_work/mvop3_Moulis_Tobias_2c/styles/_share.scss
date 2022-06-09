@@ -1,0 +1,114 @@
+h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+h3{
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+h4{
+    font-size: 0.75rem;
+    font-weight: bold;
+
+}
+h5{
+    font-size: 0.5rem;
+    font-weight: bold;
+
+}
+a{
+    all: unset;
+}
+a:hover {
+    color: gray;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.containerHeader{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    .logo{
+        width: 20%;
+        .logoFoto{
+            width: 65px;
+            height: 67.4px;
+        }
+    }
+    .name{
+        width: 60%;
+        text-align: center;
+    }
+    .links{
+        display: none;
+    }
+    .linksMobile{
+        display: inline-block;
+        width: 20%;
+        position: relative;
+        display: inline-block;
+    }
+    .buttonLinks{
+        all: unset;
+        width: 50%;
+        padding: 0% 25% 0% 25%;
+    }
+    .linksMobile2{
+        display: none;
+        position: absolute;
+        background-color: lightgray;
+        min-width: 60px;
+        z-index: 1;
+        padding: 5px;
+        right: 10px;
+    }
+    .linksMobile:hover   .linksMobile2 {display: block;}
+}
+
+@media screen and (min-width:480px){
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2.25rem;
+    }
+    h4{
+        font-size: 1.5rem;
+    }
+    h5{
+        font-size: 1.25rem;
+    }
+
+    .containerHeader{
+        padding: 20px 30px 20px 30px;
+        .logo{
+            .logoFoto{
+                width: 102.8px;
+                height: 106.6px;
+            }
+        }
+        .name{
+            text-align: center;
+        }
+        .links{
+            display: flex;
+            align-items: flex-end;
+            gap: 15px;
+        }
+        .linksMobile{
+            display: none;
+        }
+    }
+}

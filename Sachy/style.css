@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+body {
+  margin: 0%;
+}
+
+h1 {
+  all: unset;
+  font-size: 3.75rem;
+}
+
+h2 {
+  all: unset;
+  font-size: 2.5rem;
+}
+
+h3 {
+  all: unset;
+  font-size: 2.187rem;
+}
+
+h4 {
+  all: unset;
+  font-size: 1.875rem;
+}
+
+h5 {
+  all: unset;
+  font-size: 1.5625rem;
+}
+
+h6 {
+  all: unset;
+  font-size: 1.25rem;
+}
+
+a {
+  all: unset;
+}
+
+a :hover {
+  color: gray;
+}
+
+button {
+  all: unset;
+}
+
+.container header {
+  font-family: 'Lexend Mega', sans-serif;
+  width: 100%;
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container header .contantHeader {
+  width: 95%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 28vw;
+}
+
+.container header .contantHeader .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container main .first {
+  font-family: 'Lexend Mega', sans-serif;
+  height: 85vh;
+  background-color: #931621;
+}
+
+.container main .first .contantFirstBox {
+  height: 100%;
+}
+
+.container main .first .contantFirstBox .contantFirst {
+  width: 700px;
+  text-align: center;
+  padding: 14% 0% 0% 13%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container main .first .contantFirstBox .contantFirst .contantFirstTextOne {
+  background-color: #c4c4c4;
+  padding: 13px;
+}
+
+.container main .first .contantFirstBox .contantFirst .contantFirstTextTwo {
+  width: 269px;
+  margin: 38px 0px 11px 0px;
+}
+
+.container main .first .contantFirstBox .contantFirst .contantFirstButton {
+  background-color: #c4c4c4;
+  width: 269px;
+  height: 60px;
+}
+
+.container main .first .contantFirstBox .contantFirst .contantFirstButton:hover {
+  background-color: grey;
+}
+
+.container main .second {
+  font-family: 'Lexend Mega', sans-serif;
+  height: auto;
+  width: 100%;
+}
+
+.container main .second .contantSecond {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 50px;
+  margin: 31px 0px 31px 0px;
+  width: 55%;
+  border: 5px #c4c4c4;
+  border-style: none none none solid;
+  gap: 24px;
+}
+
+.container main .second .contantSecond .title {
+  background-color: #c4c4c4;
+  text-align: center;
+  width: 416px;
+  padding: 2px 0px 2px 0px;
+}
+
+.container main .second .contantSecond .one {
+  width: 488px;
+}
+
+.container main .third {
+  background-color: #D6EADF;
+  width: 100%;
+  height: auto;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.container main .third .contantThird .titleThird {
+  width: 60%;
+  text-align: center;
+  margin: 64px auto;
+}
+
+.container main .third .contantThird .order {
+  text-align: center;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  margin-bottom: 200px;
+}
+
+.container main .third .contantThird .order .orderOne {
+  background-color: #F7F0F5;
+  width: 400px;
+  height: 517px;
+  padding: 0px 20px 0px 20px;
+  position: relative;
+}
+
+.container main .third .contantThird .order .orderOne .orderOneText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px #000000;
+  border-style: none none solid none;
+  padding-bottom: 10px;
+}
+
+.container main .third .contantThird .order .orderOne .orderOneText .bold {
+  font-weight: 700;
+}
+
+.container main .third .contantThird .order .orderOne .orderOneButton {
+  position: absolute;
+  bottom: 0%;
+  left: 20px;
+  font-weight: 800;
+  line-height: 50px;
+  background-color: #326771;
+  color: white;
+  width: 400px;
+  margin: 0px auto 31px auto;
+}
+
+.container main .third .contantThird .order .orderOne .orderOneButton:hover {
+  background-color: #337a88;
+}
+
+.container main .third .contantThird .order .orderTwo {
+  background: #080705;
+  color: #F7F0F5;
+  width: 400px;
+  height: 629px;
+  padding: 0px 20px 0px 20px;
+  position: relative;
+}
+
+.container main .third .contantThird .order .orderTwo .orderTwoText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px white;
+  border-style: none none solid none;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+}
+
+.container main .third .contantThird .order .orderTwo .orderTwoText .bold {
+  font-weight: 700;
+}
+
+.container main .third .contantThird .order .orderTwo .orderTwoButton {
+  position: absolute;
+  bottom: 0%;
+  left: 20px;
+  font-weight: 800;
+  line-height: 50px;
+  background: #931621;
+  color: white;
+  width: 400px;
+  margin: 0px auto 31px auto;
+}
+
+.container main .third .contantThird .order .orderTwo .orderTwoButton:hover {
+  background: #b31522;
+}
+
+.container footer {
+  margin: 70px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 800;
+  line-height: 50px;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h5 {
+    font-size: 1.25rem;
+  }
+  .container header {
+    height: 40vh;
+  }
+  .container header .contantHeader {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 1.5rem;
+    gap: 5vh;
+  }
+  .container header .contantHeader .links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container main .first {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .container main .first .contantFirstBox .contantFirst {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+    margin: auto;
+    padding-left: 0%;
+  }
+  .container main .second .contantSecond {
+    text-align: center;
+    margin: 5%;
+    float: left;
+    width: 90%;
+    padding: 0%;
+    border-style: none;
+  }
+  .container main .second .contantSecond .title {
+    width: 90%;
+    margin: auto;
+  }
+  .container main .second .contantSecond .one {
+    width: 90%;
+  }
+  .container main .third .contantThird {
+    width: 90%;
+    margin: auto;
+  }
+  .container main .third .contantThird .titleThird {
+    width: 100%;
+  }
+  .container main .third .contantThird .order {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0px auto 50px auto;
+  }
+  .container main .third .contantThird .order .orderOne {
+    width: 90%;
+    height: 600px;
+  }
+  .container main .third .contantThird .order .orderOne .orderOneButton {
+    width: 90%;
+  }
+  .container main .third .contantThird .order .orderTwo {
+    width: 90%;
+    height: auto;
+  }
+  .container main .third .contantThird .order .orderTwo .orderTwoButton {
+    width: 90%;
+    position: inherit;
+    margin-top: 2rem;
+    left: 0%;
+  }
+  .container footer {
+    margin: 10px auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */

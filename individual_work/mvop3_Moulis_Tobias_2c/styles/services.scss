@@ -1,0 +1,63 @@
+@import './share';
+
+.mainContainer{
+    width: 80%;
+    margin: 30px auto;
+    .mainFlex{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .mainItem{
+            display: flex;
+            flex-direction: column;
+            .mainFoto{
+                height: 150px;
+                background-size: 100%;
+            }
+            .gym{
+                background-image: url(gym2.jpg);
+            }
+            .pool{
+                background-image: url(POOL.jpg);
+            }
+            .spa{
+                background-image: url(sauna.jpg);
+            }
+            .bar{
+                background-image: url(bar.jpg);
+            }
+            .mainText{
+                background-color: lightgray;
+                text-align: center;
+                padding: 15px 30px 20px 30px;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    }
+}
+@media screen and (min-width:480px){
+    .mainContainer{
+        .mainFlex{
+           
+            .mainItem{
+                flex-direction: row;
+                .mainFoto{
+                    width: 45%;
+                    height: 350px;
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                }
+                .mainText{
+                    width: 55%;
+                    padding: 20px 80px 20px 80px;
+                    gap: 20px;
+                }
+            }
+            .r{
+                flex-direction: row-reverse;
+            }
+        }
+    }
+}

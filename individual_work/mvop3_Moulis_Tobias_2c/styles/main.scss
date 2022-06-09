@@ -1,0 +1,78 @@
+@import './share';
+
+
+main{
+    .mainContainer{
+        width: 80%;
+        margin: auto;
+        .mainLinks{
+            display: flex;
+            gap: 15px;
+            flex-direction: column;
+            .l{
+                background-color: lightgray;
+                width: 100%;
+                text-align: center;
+                padding: 5px 0px 5px 0px;
+            }
+
+        }
+        .mainContacts{
+            display: flex;
+            margin-top: 20px;
+            flex-direction: column;
+           .map1{
+            .map{
+                width: 100%;
+                .map2{
+                    width: 100%;
+                }
+            }
+           }
+            .contactsText{
+                background-color: lightgray;
+                padding: 15px 25px 15px 25px;
+                .contacts{
+                    margin: auto;
+                    width: 135px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:480px){
+    button{
+        display: none;
+    }
+    main{
+        .mainContainer{
+            margin-bottom: 70px;
+            .mainFoto{
+                background-image: url(hotel.jpg);
+                height: 750px;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                margin-bottom: 80px;
+            }
+            .mainLinks{
+                display: none;
+            }
+            .mainContacts{
+               .map1{
+                   
+                .map{
+                    height: 500px;
+                    .map2{
+                        height: 100%;
+                    }
+                }
+                }
+                .contactsText{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

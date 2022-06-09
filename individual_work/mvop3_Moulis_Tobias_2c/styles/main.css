@@ -1,0 +1,213 @@
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 0.5rem;
+  font-weight: bold;
+}
+
+a {
+  all: unset;
+}
+
+a:hover {
+  color: gray;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.containerHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.containerHeader .logo {
+  width: 20%;
+}
+
+.containerHeader .logo .logoFoto {
+  width: 65px;
+  height: 67.4px;
+}
+
+.containerHeader .name {
+  width: 60%;
+  text-align: center;
+}
+
+.containerHeader .links {
+  display: none;
+}
+
+.containerHeader .linksMobile {
+  display: inline-block;
+  width: 20%;
+  position: relative;
+  display: inline-block;
+}
+
+.containerHeader .buttonLinks {
+  all: unset;
+  width: 50%;
+  padding: 0% 25% 0% 25%;
+}
+
+.containerHeader .linksMobile2 {
+  display: none;
+  position: absolute;
+  background-color: lightgray;
+  min-width: 60px;
+  z-index: 1;
+  padding: 5px;
+  right: 10px;
+}
+
+.containerHeader .linksMobile:hover .linksMobile2 {
+  display: block;
+}
+
+@media screen and (min-width: 480px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2.25rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  h5 {
+    font-size: 1.25rem;
+  }
+  .containerHeader {
+    padding: 20px 30px 20px 30px;
+  }
+  .containerHeader .logo .logoFoto {
+    width: 102.8px;
+    height: 106.6px;
+  }
+  .containerHeader .name {
+    text-align: center;
+  }
+  .containerHeader .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    gap: 15px;
+  }
+  .containerHeader .linksMobile {
+    display: none;
+  }
+}
+
+main .mainContainer {
+  width: 80%;
+  margin: auto;
+}
+
+main .mainContainer .mainLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .mainContainer .mainLinks .l {
+  background-color: lightgray;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+}
+
+main .mainContainer .mainContacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .mainContainer .mainContacts .map1 .map {
+  width: 100%;
+}
+
+main .mainContainer .mainContacts .map1 .map .map2 {
+  width: 100%;
+}
+
+main .mainContainer .mainContacts .contactsText {
+  background-color: lightgray;
+  padding: 15px 25px 15px 25px;
+}
+
+main .mainContainer .mainContacts .contactsText .contacts {
+  margin: auto;
+  width: 135px;
+  padding-bottom: 10px;
+}
+
+@media screen and (min-width: 480px) {
+  button {
+    display: none;
+  }
+  main .mainContainer {
+    margin-bottom: 70px;
+  }
+  main .mainContainer .mainFoto {
+    background-image: url(hotel.jpg);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 80px;
+  }
+  main .mainContainer .mainLinks {
+    display: none;
+  }
+  main .mainContainer .mainContacts .map1 .map {
+    height: 500px;
+  }
+  main .mainContainer .mainContacts .map1 .map .map2 {
+    height: 100%;
+  }
+  main .mainContainer .mainContacts .contactsText {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=main.css.map */

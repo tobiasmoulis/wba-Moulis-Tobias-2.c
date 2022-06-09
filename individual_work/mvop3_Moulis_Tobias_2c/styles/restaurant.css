@@ -1,0 +1,208 @@
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 0.5rem;
+  font-weight: bold;
+}
+
+a {
+  all: unset;
+}
+
+a:hover {
+  color: gray;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.containerHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.containerHeader .logo {
+  width: 20%;
+}
+
+.containerHeader .logo .logoFoto {
+  width: 65px;
+  height: 67.4px;
+}
+
+.containerHeader .name {
+  width: 60%;
+  text-align: center;
+}
+
+.containerHeader .links {
+  display: none;
+}
+
+.containerHeader .linksMobile {
+  display: inline-block;
+  width: 20%;
+  position: relative;
+  display: inline-block;
+}
+
+.containerHeader .buttonLinks {
+  all: unset;
+  width: 50%;
+  padding: 0% 25% 0% 25%;
+}
+
+.containerHeader .linksMobile2 {
+  display: none;
+  position: absolute;
+  background-color: lightgray;
+  min-width: 60px;
+  z-index: 1;
+  padding: 5px;
+  right: 10px;
+}
+
+.containerHeader .linksMobile:hover .linksMobile2 {
+  display: block;
+}
+
+@media screen and (min-width: 480px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2.25rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  h5 {
+    font-size: 1.25rem;
+  }
+  .containerHeader {
+    padding: 20px 30px 20px 30px;
+  }
+  .containerHeader .logo .logoFoto {
+    width: 102.8px;
+    height: 106.6px;
+  }
+  .containerHeader .name {
+    text-align: center;
+  }
+  .containerHeader .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    gap: 15px;
+  }
+  .containerHeader .linksMobile {
+    display: none;
+  }
+}
+
+.mainContainer {
+  width: 80%;
+  margin: 30px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mainContainer .foto {
+  background-image: url(rest2.jpg);
+  height: 155px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.mainContainer .text {
+  background-color: lightgray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  padding: 15px;
+  text-align: center;
+}
+
+.mainContainer .text .mainTime {
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  padding: 10px;
+  width: 70%;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (min-width: 480px) {
+  .mainContainer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 60px auto;
+  }
+  .mainContainer .foto {
+    width: 45%;
+    height: 450px;
+    background-size: 100% 100%;
+  }
+  .mainContainer .text {
+    width: 55%;
+    gap: 20px;
+    padding: 35px;
+    text-align: center;
+  }
+  .mainContainer .text .mainTime {
+    width: 85%;
+    padding: 15px;
+  }
+  .mainContainer .text .mainTime .timeText {
+    font-size: 2.25rem;
+  }
+}
+/*# sourceMappingURL=restaurant.css.map */

@@ -1,0 +1,202 @@
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 0.5rem;
+  font-weight: bold;
+}
+
+a {
+  all: unset;
+}
+
+a:hover {
+  color: gray;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.containerHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.containerHeader .logo {
+  width: 20%;
+}
+
+.containerHeader .logo .logoFoto {
+  width: 65px;
+  height: 67.4px;
+}
+
+.containerHeader .name {
+  width: 60%;
+  text-align: center;
+}
+
+.containerHeader .links {
+  display: none;
+}
+
+.containerHeader .linksMobile {
+  display: inline-block;
+  width: 20%;
+  position: relative;
+  display: inline-block;
+}
+
+.containerHeader .buttonLinks {
+  all: unset;
+  width: 50%;
+  padding: 0% 25% 0% 25%;
+}
+
+.containerHeader .linksMobile2 {
+  display: none;
+  position: absolute;
+  background-color: lightgray;
+  min-width: 60px;
+  z-index: 1;
+  padding: 5px;
+  right: 10px;
+}
+
+.containerHeader .linksMobile:hover .linksMobile2 {
+  display: block;
+}
+
+@media screen and (min-width: 480px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2.25rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  h5 {
+    font-size: 1.25rem;
+  }
+  .containerHeader {
+    padding: 20px 30px 20px 30px;
+  }
+  .containerHeader .logo .logoFoto {
+    width: 102.8px;
+    height: 106.6px;
+  }
+  .containerHeader .name {
+    text-align: center;
+  }
+  .containerHeader .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    gap: 15px;
+  }
+  .containerHeader .linksMobile {
+    display: none;
+  }
+}
+
+.details {
+  all: unset;
+  color: white;
+  background-color: black;
+  padding: 7px;
+}
+
+.containerMain {
+  width: 80%;
+  margin: 25px auto 40px auto;
+}
+
+.containerMain .gridMain {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  gap: 40px;
+}
+
+.containerMain .gridMain .standart {
+  background-image: url(stand.jpg);
+}
+
+.containerMain .gridMain .premium {
+  background-image: url(prem.jpg);
+}
+
+.containerMain .gridMain .deluxe {
+  background-image: url(delux.jpg);
+}
+
+.containerMain .gridMain .penthouse {
+  background-image: url(pent.jpg);
+}
+
+.containerMain .gridMain .roomFoto {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 180px;
+}
+
+.containerMain .gridMain .roomText {
+  background-color: lightgray;
+  text-align: center;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+
+@media screen and (min-width: 480px) {
+  button {
+    padding: 10px 15px 10px 15px;
+  }
+  .containerMain .gridMain {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+  }
+  .containerMain .gridMain .roomFoto {
+    height: 400px;
+  }
+}
+/*# sourceMappingURL=rooms.css.map */
